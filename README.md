@@ -8,6 +8,8 @@ An app to manage a course-list.
     ##Technologies Used
     - Anguler JS
     - AngulerUI Router
+    - HTML
+    - CSS
     - Computers
 
 
@@ -18,4 +20,4 @@ An app to manage a course-list.
     #### Copyright © 2015, James Nielson
     #### License: [MIT](https://github.com/twbs/bootstrap/blob/master/LICENSE")
 
-    #### No guarantees, no promises.  Don't use it for evil.
+    #### No guarantees, no promises.  Don't use it for 'evil'.

@@ -7,6 +7,7 @@ courseRoster.factory('CoursesFactory', function CoursesFactory() {
             id: factory.courses.length + 1,
             students: []
         });
+        factory.courseName = null;
     };
     return factory;
 });
