@@ -1,0 +1,21 @@
+#result {
+  display: none;
+}
+
+
+header {
+  text-align: center;
+  margin-bottom: 25px;
+  padding: 25px 0;
+  background: url('http://blogs-images.forbes.com/merrillbarr/files/2014/06/the-magic-school-bus-13.jpg') no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+}
+
+h1 {
+  font-family: Palatino, serif;
+  color: snow;
+  text-shadow: 5px 5px 10px #000000;
+  margin-top: 0;
+}

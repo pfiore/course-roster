@@ -1,0 +1,26 @@
+
+  <div  class="col-md-4 well well-sm">
+    <div ng-show='courses.length'>
+
+      <h2>Here are all of your courses:</h2>
+      <ul>
+        <li ng-repeat='item in courses'>
+          <a ui-sref='courses.students({ courseId: item.id })'>{{ item.name }}</a>
+        </li>
+      </ul>
+    </div>
+
+
+
+    <h2>Add a new course</h2>
+
+    <form ng-submit="CoursesFactory.addCourse()" class="form-inline" role="form">
+      <div class='form-group'>
+        <input type="text" ng-model='CoursesFactory.courseName' class='form-control' placeholder='Enter a course name'>
+      </div>
+      <button type='submit' class='btn btn-default btn-inline'>Submit</button>
+    </form>
+
+</div>
+
+<div ui-view> </div>
