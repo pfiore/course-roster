@@ -13,9 +13,10 @@ header {
 
 }
 
-h1 {
+.title {
   font-family: Palatino, serif;
   color: snow;
   text-shadow: 5px 5px 10px #000000;
   margin-top: 0;
+  font-size: 40px;
 }

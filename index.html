@@ -1,12 +1,11 @@
 <!doctype html>
 <html lang="en" ng-app='courseRoster'>
 <head>
-  <meta charset="UTF-8">
-  <title>Course Roster</title>
+    <meta charset="UTF-8">
+    <title>Course Roster</title>
     <script src='lib/angular.js'></script>
     <script src='lib/angular-ui-router.js'></script>
     <script src='app.js'></script>
-
     <script src='controllers/CoursesController.js'></script>
     <script src='controllers/StudentsController.js'></script>
     <script src='services/CoursesFactory.js'></script>
@@ -15,11 +14,11 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <header><h1>Course Roster<h1></header>
+    <header>
+        <div class="title">Course Roster</div>
+    </header>
     <div class='container'>
         <div ui-view></div>
-
-
     </div>
 </body>
 </html>

@@ -1,4 +1,4 @@
-# Course Roster for Epicodus
+ # Course Roster for Epicodus
 ## by James Nielson and Patrick Fiorentino
 #### Date: April 22, 2015
 
