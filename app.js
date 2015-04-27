@@ -1,26 +1,34 @@
 var courseRoster = angular.module("courseRoster", ["ui.router"]);
 /////DIRECTIVE//////////////////////////////////////////////////////
 
-// courseRoster.directive("welcomeText", function() {
-//     return {
-//         restrict: "E",
-//         template: "<div>Welcome!</div>"
-//     };
-// });
+courseRoster.directive("welcomeText", function() {
+    return {
+        restrict: "E",
+        template: "<div>Welcome!</div>"
+    };
+});
+
 courseRoster.directive("enter", function() {
     return function(scope, element){
+        restrict: "C",
         element.bind("mouseenter", function () {
-            console.log("I love school! wooooo!")
+            element.removeClass("btn btn-success");
+            element.addClass("btn btn-warning");
         });
-    };
-});
-courseRoster.directive("leave", function() {
-    return function(scope, element){
         element.bind("mouseleave", function () {
-            console.log("no, im ready for lunch")
+            element.removeClass("btn btn-warning");
+            element.addClass("btn btn-success");
         });
     };
 });
+
+
+//
+// courseRoster.directive("leave", function() {
+//     return function(scope, element){
+//
+//     };
+// });
 
 ////ROUTES///////////////////////////////////////////////////////
 courseRoster.config(function($stateProvider) {
